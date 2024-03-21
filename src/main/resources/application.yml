@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: ${JDBC_SECRET}
+    username: alfa
+    password: ${PASS_DB}
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    hikari:
+      connection-timeout: 30000
+      maximum-pool-size: 10
